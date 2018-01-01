@@ -30,6 +30,15 @@ h1, h2, h3, h4, h5, h6, a {
   margin-left:40px;
   color:#fff;
 }
+.login-form h2 {
+  text-align:center;
+  margin-left:10px;
+  color:rgba(44, 36, 7, 0.85);
+  background-color: rgba(236, 217, 142, 0.85);
+  border-radius:5px;
+  border:3px solid rgba(44, 36, 7, 0.85);
+
+}
 .login-form {
   box-sizing:border-box;
   padding-top:15px;
@@ -38,7 +47,8 @@ h1, h2, h3, h4, h5, h6, a {
   text-align:center;
 }
 .login input[type="text"],
-.login input[type="password"] {
+.login input[type="password"],
+.login input[type="email"] {
   max-width:400px;
 	width: 80%;
   line-height:3em;
@@ -52,7 +62,7 @@ h1, h2, h3, h4, h5, h6, a {
 }
 .login-form input[type="button"] {
   height:30px;
-  width:100px;
+  width:120px;
   background:#fff;
   border:1px solid #f2f2f2;
   border-radius:20px;
@@ -67,12 +77,14 @@ h1, h2, h3, h4, h5, h6, a {
   cursor:pointer;
   text-decoration:underline;
 }
+/*
 .no-access {
   color:#E86850;
   margin:20px 0px 20px -57%;
   text-decoration:underline;
   cursor:pointer;
 }
+*/
 .try-again {
   color:#f2f2f2;
   text-decoration:underline;
@@ -85,6 +97,7 @@ h1, h2, h3, h4, h5, h6, a {
     text-align:center;
     margin:0;
   }
+
   .sign-up, .no-access {
     margin:10px 0;
   }
